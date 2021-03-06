@@ -1,0 +1,25 @@
+@import "../styles.module.scss";
+.header {
+  margin: 33px 0;
+}
+.container_header {
+  max-width: 1800px;
+}
+.header__row {
+  @include flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav {
+  @include flex;
+  .nav-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+  }
+}

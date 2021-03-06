@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import './reset-styles.module.scss';
+*{
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+}
+@mixin flex{
+    display: flex;
+    display: -webkit-flex;
+}
+$blue-color: #57B3FE;
+$green-color: #00A077;
+$dark-color: #3B3E43;
+$gray-color: #595E64;
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
